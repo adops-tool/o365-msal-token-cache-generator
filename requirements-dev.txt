@@ -1,0 +1,5 @@
+-r requirements.txt
+-c requirements-lock.txt
+ruff==0.16.10
+# Used by the offline cache compatibility test; not needed to run auth.py.
+O365==2.1.10

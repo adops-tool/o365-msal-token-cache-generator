@@ -1,4 +1,16 @@
-python -m venv venv
-pip install -r requirements.txt
-.venv\Scripts\activate
-python auth.py
+# Run from the project directory in Windows PowerShell or cmd.exe.
+# Use the virtual environment's Python directly; activation is not required.
+python -m venv .venv
+.venv\Scripts\python.exe -m pip install -r requirements-lock.txt
+# Copy .env.example to .env only if .env does not already exist.
+# Replace the example client and tenant identifiers before running.
+.venv\Scripts\python.exe auth.py
+
+# Optional: open the sign-in page in the default browser.
+.venv\Scripts\python.exe auth.py --open-browser
+
+# Developer checks (these do not contact Microsoft or require real credentials).
+.venv\Scripts\python.exe -m pip install -r requirements-dev.txt
+.venv\Scripts\python.exe -m unittest discover -s tests -v
+.venv\Scripts\python.exe -m ruff check .
+.venv\Scripts\python.exe -m ruff format --check .

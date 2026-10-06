@@ -1,2 +1,5 @@
-msal
-python-dotenv
+# Direct runtime dependencies verified together. Requires Python 3.10 or newer.
+# requests is explicit because auth.py handles its transport exceptions directly.
+msal==1.39.0
+python-dotenv==1.2.4
+requests==2.34.2
