@@ -711,7 +711,3 @@ If you find this tool useful, consider leaving a star on the repository or suppo
 [![Telegram](https://img.shields.io/badge/Telegram-FCTostin-2ca5e0?style=flat-square&logo=telegram)](https://t.me/FCTostin)
 
 If you find this tool useful, consider leaving a star on GitHub or supporting the author directly.
-
----
-
-*Document last updated: 2026-10-06. Generated for `o365-msal-token-cache-generator` (branch `arena/7c49ce0a-o365-msal-token-cache-generato`).*
