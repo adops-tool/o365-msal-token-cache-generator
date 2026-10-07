@@ -4,6 +4,8 @@
 
 **A dependency-light Python CLI that completes an interactive Microsoft Entra public-client (PKCE) sign-in exactly once and persists a durable, atomically written MSAL token cache that O365-based applications can consume headlessly — with no client secret, no callback listener, and no browser on the host.**
 
+[![Gist](https://img.shields.io/badge/gist.github-version_of_this_repository-DCDCDC?style=for-the-badge&logo=github)](https://gist.github.com/OstinUA/e1c6ab1453ff8db09c973b273e75647a)
+
 [![License: Apache-2.0](https://img.shields.io/badge/License-Apache--2.0-blue?style=for-the-badge)](LICENSE)
 [![Python](https://img.shields.io/badge/Python-3.10_%7C_3.12_%7C_3.14-3776AB?style=for-the-badge&logo=python&logoColor=white)](#prerequisites)
 [![Tests](https://img.shields.io/badge/tests-49_passed-brightgreen?style=for-the-badge)](#testing)
