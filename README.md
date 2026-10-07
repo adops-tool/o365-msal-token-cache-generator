@@ -6,7 +6,6 @@
 
 [![License: Apache-2.0](https://img.shields.io/badge/License-Apache--2.0-blue?style=for-the-badge)](LICENSE)
 [![Python](https://img.shields.io/badge/Python-3.10_%7C_3.12_%7C_3.14-3776AB?style=for-the-badge&logo=python&logoColor=white)](#prerequisites)
-[![Build Status](https://github.com/adops-tool/o365-msal-token-cache-generator/actions/workflows/checks.yml/badge.svg)](https://github.com/adops-tool/o365-msal-token-cache-generator/actions/workflows/checks.yml)
 [![Tests](https://img.shields.io/badge/tests-49_passed-brightgreen?style=for-the-badge)](#testing)
 [![Coverage](https://img.shields.io/badge/coverage-offline_suite-lightgrey?style=for-the-badge)](#what-is-covered)
 [![Code style: Ruff](https://img.shields.io/badge/code_style-Ruff-D7FF10?style=for-the-badge&logo=ruff)](https://docs.astral.sh/ruff/)
